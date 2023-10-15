@@ -1,0 +1,112 @@
+/* Reset some default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.hd {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+h1 span {
+    color: #0074D9;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styles */
+.lifestyle {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Review Section styles */
+.me {
+    margin-top: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* About button style */
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+}
